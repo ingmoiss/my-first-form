@@ -16,5 +16,11 @@ namespace MyFirstForm
         {
             InitializeComponent();
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            string valor = txtValor.Text;
+            lbRespuesta.Text = "El valor es: " + valor; 
+        }
     }
 }
